@@ -3,8 +3,8 @@ applications:
   - name: pal-tracker
     path: build/libs/pal-tracker.jar
     routes:
-      - route: pal-tracker-mohda.cfapps.io
-      - route: pal-tracker-bhatv8.cfapps.io
+      - route: pal-tracker-mohdaz.cfapps.io
+      - route: pal-tracker-bhatv80.cfapps.io
     env:
       WELCOME_MESSAGE: Hello from Cloud Foundry
       JBP_CONFIG_OPEN_JDK_JRE: '{ jre: { version: 11.+ } }'
